@@ -33,7 +33,7 @@ h2 {
   /* text-align: center; */
   color: #00684a;
   margin: 0 20px;
-  font-size: 1.6em; 
+  font-size: 1.6em;
 }
 
 /* Signup text styles */
@@ -150,7 +150,7 @@ form .btn.primary {
   /* flex-direction: column; */
   /* justify-content: center;
   align-items: center; */
-  background-color: #00684A;
+  background-color: #00684a;
   color: #ffffff;
   padding: 50px;
   border-radius: 8px;
@@ -189,4 +189,400 @@ form .btn.primary {
   width: 470px;
   height: 500px;
   margin-top: -70px;
+}
+
+/* MEDIA QUERY 320 */
+@media (max-width: 320px) {
+  /* General styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for centering */
+.container {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background: #fff;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+/* Logo styles */
+.logo {
+  display: block;
+  margin: 0 20px;
+  max-width: 150px;
+}
+
+/* Heading styles */
+h2 {
+  /* text-align: center; */
+  color: #00684a;
+  margin: 0 20px;
+  font-size: 1.6em;
+}
+
+/* Signup text styles */
+.signup-text {
+  /* text-align: center; */
+  margin: 0 20px;
+}
+
+.signup-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Social login buttons */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-login .btn {
+  width: 250px;
+  margin: 0 20px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #000; /* Black border */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-login .google {
+  /* background: #db4437; */
+  color: #fff;
+}
+
+.social-login .github {
+  background: #333;
+  color: #fff;
+}
+
+.social-login .btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-login .google {
+  background: #ffffff;
+  color: #5c6c75;
+}
+
+.social-login .github {
+  background: #ffffff;
+  color: #5c6c75;
+}
+
+/* Or text styles */
+.or {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5c6c75;
+  font-size: 15px;
+}
+
+/* Form styles */
+form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form .btn.primary {
+  background: #00684a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* form .btn.primary:hover {
+  background: #0056b3;
+} */
+/* Right side styles */
+.right-side {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: center;
+  align-items: center; */
+  background-color: #00684a;
+  color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+  /* margin: 0 4px; */
+}
+
+.heading2 {
+  /* text-align: center; */
+  color: #ffffff;
+  margin: 0 5px;
+  /* font-size: 1.6em; */
+}
+
+.right-content {
+  text-align: left;
+  max-width: 300px;
+}
+
+.right-content h4 {
+  text-decoration: underline;
+}
+
+.right-content p {
+  margin: 10px 0;
+}
+
+.right-content h4 span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Right image styles */
+.right-image {
+  width: 250px;
+  height: 300px;
+  margin-top: -70px;
+}
+
+}
+
+/* MEDIA QUERY 375 */
+
+/* MEDIA QUERY 320 */
+@media (max-width: 375px) {
+  /* General styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for centering */
+.container {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background: #fff;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+/* Logo styles */
+.logo {
+  display: block;
+  margin: 0 20px;
+  max-width: 150px;
+}
+
+/* Heading styles */
+h2 {
+  /* text-align: center; */
+  color: #00684a;
+  margin: 0 20px;
+  font-size: 1.6em;
+}
+
+/* Signup text styles */
+.signup-text {
+  /* text-align: center; */
+  margin: 0 20px;
+}
+
+.signup-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Social login buttons */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-login .btn {
+  width: 250px;
+  margin: 0 20px;
+  padding: 10px;
+  border: none;
+  border: 1px solid #000; /* Black border */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-login .google {
+  /* background: #db4437; */
+  color: #fff;
+}
+
+.social-login .github {
+  background: #333;
+  color: #fff;
+}
+
+.social-login .btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-login .google {
+  background: #ffffff;
+  color: #5c6c75;
+}
+
+.social-login .github {
+  background: #ffffff;
+  color: #5c6c75;
+}
+
+/* Or text styles */
+.or {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5c6c75;
+  font-size: 15px;
+}
+
+/* Form styles */
+form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form .btn.primary {
+  background: #00684a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* form .btn.primary:hover {
+  background: #0056b3;
+} */
+/* Right side styles */
+.right-side {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: center;
+  align-items: center; */
+  background-color: #00684a;
+  color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+  /* margin: 0 4px; */
+}
+
+.heading2 {
+  /* text-align: center; */
+  color: #ffffff;
+  margin: 0 5px;
+  /* font-size: 1.6em; */
+}
+
+.right-content {
+  text-align: left;
+  max-width: 300px;
+}
+
+.right-content h4 {
+  text-decoration: underline;
+}
+
+.right-content p {
+  margin: 10px 0;
+}
+
+.right-content h4 span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Right image styles */
+.right-image {
+  width: 250px;
+  height: 300px;
+  margin-top: -70px;
+}
+
 }
